@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FBF56CC3-7AE6-AD2D-3F14-7F97FD322CD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DFEE68D8-A7D0-1A41-506C-9B74AA9A7B7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{06CFFD70-14AA-A959-A3BA-1B15D094E3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs.ETL.Application", "src\Core\Jobs.ETL.Application\Jobs.ETL.Application.csproj", "{1FCD9BEA-FE74-44CF-AEE4-58BCAA881EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs.ETL.Domain", "src\Core\Jobs.ETL.Domain\Jobs.ETL.Domain.csproj", "{01D3E9EC-7A39-43B3-98A8-E7C087B58DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs.ETL.Infrastructure", "src\Infrastructure\Jobs.ETL.Infrastructure\Jobs.ETL.Infrastructure.csproj", "{61FA9B1F-CB54-418B-ADDE-D6D7B60CA261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs.ETL.WebAPI", "src\Presentation\Jobs.ETL.WebAPI\Jobs.ETL.WebAPI.csproj", "{71D09E0B-F905-40A4-928B-134E41E3860E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCD9BEA-FE74-44CF-AEE4-58BCAA881EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCD9BEA-FE74-44CF-AEE4-58BCAA881EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCD9BEA-FE74-44CF-AEE4-58BCAA881EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCD9BEA-FE74-44CF-AEE4-58BCAA881EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D3E9EC-7A39-43B3-98A8-E7C087B58DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D3E9EC-7A39-43B3-98A8-E7C087B58DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D3E9EC-7A39-43B3-98A8-E7C087B58DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D3E9EC-7A39-43B3-98A8-E7C087B58DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FA9B1F-CB54-418B-ADDE-D6D7B60CA261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FA9B1F-CB54-418B-ADDE-D6D7B60CA261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FA9B1F-CB54-418B-ADDE-D6D7B60CA261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FA9B1F-CB54-418B-ADDE-D6D7B60CA261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D09E0B-F905-40A4-928B-134E41E3860E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D09E0B-F905-40A4-928B-134E41E3860E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D09E0B-F905-40A4-928B-134E41E3860E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D09E0B-F905-40A4-928B-134E41E3860E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FCD9BEA-FE74-44CF-AEE4-58BCAA881EAD} = {FBF56CC3-7AE6-AD2D-3F14-7F97FD322CD6}
+		{01D3E9EC-7A39-43B3-98A8-E7C087B58DFF} = {FBF56CC3-7AE6-AD2D-3F14-7F97FD322CD6}
+		{61FA9B1F-CB54-418B-ADDE-D6D7B60CA261} = {DFEE68D8-A7D0-1A41-506C-9B74AA9A7B7B}
+		{71D09E0B-F905-40A4-928B-134E41E3860E} = {06CFFD70-14AA-A959-A3BA-1B15D094E3B1}
+	EndGlobalSection
+EndGlobal
